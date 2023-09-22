@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-decoration: none;
+
+}
+#slack-logo{
+    height:100% ;
+    width:auto;
+    margin-left: 3rem;
+}
+.header{
+    text-decoration: inherit;
+    background-color: #400d40;
+    color: white;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+/* .header img{
+    /* height: 80px;
+    width: 125px;
+    position: absolute;
+    left: 10rem; 
+}*/
+.header .list{
+    text-decoration: none;
+    color: white;
+    width:auto;
+    margin: 0.5rem;
+   
+}
+.header i{
+    font-size: 1.5rem;
+}
+.header .list a{
+    text-decoration: none;
+    color: white;
+}
+.space{
+    width:100px
+}
+.header button{
+    margin: 0.5rem 1rem 1rem 0.5rem;
+    height:45px;
+    width: 148px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius:10px;
+
+}
+.header i{
+    margin:0.5rem;
+}
+.header .list > a{
+    margin:0.3rem;
+}
+.header .talk {
+    background-color: #400d40;
+    color: white ;
+}
+.header .try{
+    background-color: white;
+    color: #400d40;
+}
+.poster-one{
+    background-color: #400d40;
+    color: white ;
+    text-decoration: inherit;
+    width: 40vw;
+    height: 477px;
+    padding: 0px 120px 0px 80px;
+    display: flex;
+}
+.poster-one h1{
+    margin-bottom: 1rem;
+    font-size: 50px;
+}
+.poster-one p{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+.poster-one .prod{
+    color: gold;
+}
+.poster-one button{
+    margin: 0.5rem 1rem 1rem 0.5rem;
+    height:45px;
+    width: auto;
+    font-size: 15px;
+    border: none    ;
+    border-radius:3px;
+    padding: 0.5rem;
+}
+.poster-one .email{
+    border-color: white;
+    color: #400d40;
+}
+.poster-one .google{
+    background-color: #4285f4;
+}
+.poster-one img{
+    width:45vw;
+    height: 477px;
+    position: absolute;
+    right:0px;
+    top:80px;
+}
+.comp
