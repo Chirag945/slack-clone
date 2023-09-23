@@ -59,11 +59,11 @@
 .header .list > a{
     margin:0.3rem;
 }
-.header .talk {
+.talk {
     background-color: #400d40;
     color: white ;
 }
-.header .try{
+.try{
     background-color: white;
     color: #400d40;
 }
@@ -146,3 +146,122 @@
     font-size: 20px;
 }
 
+.team-size{
+    height: 521px;
+    padding: 3rem;
+}
+.team-size h1{
+    text-align: center;
+}
+.team-size p{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3rem;
+}
+.team-size button{
+    margin: 0.5rem 1rem 1rem 0.5rem;
+    height:45px;
+    width: auto;
+    font-size: 15px;
+    border: 2px solid #400d40;
+    border-radius:0.25rem;
+    padding: 1rem 1rem 2rem 1rem;
+}
+.team-size .stats{
+    display: flex;
+    justify-content: center;
+
+}
+#percentiles{
+    color: #400d40;
+    font-size: 40px;
+    text-align: left;
+}
+.team-size .stats .comm{
+    width:190px;
+    height:auto;  
+    margin: 2rem 4rem 2rem 4rem;
+
+}
+.team-size .stats .comm p{
+    padding-top: 0.4rem;
+    font-size:14px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1rem;
+}
+#stories{
+    background-color: white;
+}
+#textOne{
+    padding-left: 3rem;
+}
+#quotes{
+    font-size: 30px;
+}
+
+#textTwo{
+    color: #4285f4;
+}
+
+.deeper{
+    text-align: center;
+    width: 100vw;
+    height: 563px;
+    padding: 2rem 0rem 2rem 0rem;
+    background-color: rgb(244, 237, 228);
+    
+}
+
+.deeper-dive{    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 237, 228);
+}
+.deeper-dive .class{
+    margin: 1rem;
+    background-color: white;
+    width: 270px;
+    height: 420px;
+    text-align: left;
+    padding: 1rem;
+}
+#main{
+    font-size: 25px;
+}
+.deeper-dive .class img{
+    /* padding: 1rem; */
+    width: 100%;
+    height: auto;
+}
+.accomplish{
+    width: 100vw;
+    height: 210px;
+    padding: 80px 0px 80px 0px;
+    background-color: #400d40;
+    color: white;
+    text-align: center;
+}
+.accomplish .try{
+    
+    margin: 0.5rem 0.25rem 1rem 0.25rem;
+    height:45px;
+    width: auto;
+    font-size: 15px;
+    border: none    ;
+    border-radius:3px;
+    padding: 0.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+    border: 2px solid white    ;
+}
+.accomplish .talk{
+    margin: 0.5rem 0.25rem 1rem 0.25rem;
+    height:45px;
+    width: auto;
+    font-size: 15px;
+    border: 2px solid white    ;
+    border-radius:3px;
+    padding: 1rem 2rem 2rem 2rem;
+}
