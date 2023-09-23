@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     text-decoration: none;
-
+    
 }
 #slack-logo{
     height:100% ;
@@ -18,8 +18,7 @@
     height: 80px;
     display: flex;
     align-items: center;
-    position: sticky;
-    top: 0px;
+    
 }
 /* .header img{
     /* height: 80px;
@@ -71,18 +70,22 @@
     background-color: #400d40;
     color: white ;
     text-decoration: inherit;
-    width: 40vw;
+    width: 100%;
     height: 477px;
     padding: 0px 120px 0px 80px;
     display: flex;
+}
+.poster-one .text{
+    flex: 1;
+
 }
 .poster-one h1{
     margin-bottom: 1rem;
     font-size: 50px;
 }
-.poster-one p{
+.poster-one span{
     font-size: 20px;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 .poster-one .prod{
     color: gold;
@@ -147,7 +150,7 @@
 }
 
 .team-size{
-    height: 521px;
+    height: 300px;
     padding: 3rem;
 }
 .team-size h1{
@@ -246,7 +249,7 @@
 }
 .accomplish .try{
     
-    margin: 0.5rem 0.25rem 1rem 0.25rem;
+    margin: 0.5rem 0.25rem 1rem 0.5rem;
     height:45px;
     width: auto;
     font-size: 15px;
@@ -257,11 +260,65 @@
     border: 2px solid white    ;
 }
 .accomplish .talk{
-    margin: 0.5rem 0.25rem 1rem 0.25rem;
+    margin: 0.5rem 1rem 1rem 0.5rem;
     height:45px;
     width: auto;
     font-size: 15px;
     border: 2px solid white    ;
     border-radius:3px;
     padding: 1rem 2rem 2rem 2rem;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 10rem 3rem 10rem;
+}
+.footer .list{
+    width: 10rem;
+}
+.footer .list img{
+    width: 5rem;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+.final{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+.final .names{
+
+    margin: 0.5rem;
+    
+}
+.rightwards{
+    justify-self: flex-end;
+    
+}
+.empty{
+    flex:1;
+}
+.rightwards a{
+   
+    text-decoration: none;
+    color: black;
+    margin-left:1rem;
+}
+
+#firstone{
+     margin-left: 4rem;;
+}
+.final .names a{
+    text-decoration: none;
+    color: black;
+}
+#disclaimer{
+    font-size: 10px;
+    color: grey;
+    margin-left: 1rem;
 }
